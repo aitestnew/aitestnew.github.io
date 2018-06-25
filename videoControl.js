@@ -80,10 +80,10 @@ function toRewind () {//减速
 
 function toSpeed () {//加速
 	for ( var i = 0; i < myvideo.length; i++ ) {
-		if (myvideo[i].playbackRate < 2) {
-			myvideo[i].playbackRate = 2
+		if (myvideo[i].playbackRate < 1.4) {
+			myvideo[i].playbackRate = 1.4
 		}else{
-			myvideo[i].playbackRate += 2;
+			myvideo[i].playbackRate += 0.2;
 		}
 	}
 }
